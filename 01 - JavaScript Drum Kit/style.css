@@ -51,7 +51,8 @@ kbd {
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    color: green;
+  .keys {
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
